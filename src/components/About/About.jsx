@@ -2,6 +2,7 @@
 import classes from "./About.module.css";
 import about from "./about.svg";
 import ab from "./apc.png";
+import car from "./car.png";
 
 const About = () => {
   return (
@@ -49,7 +50,7 @@ const About = () => {
           </div>
 
           <div className={classes.composition}>
-            <img className={classes.images} src={about} alt="about" />
+            <img className={classes.images} src={car} alt="about" />
           </div>
         </div>
       </section>
