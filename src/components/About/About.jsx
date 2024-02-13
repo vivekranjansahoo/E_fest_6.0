@@ -50,7 +50,7 @@ const About = () => {
           </div>
 
           <div className={classes.composition}>
-            <img className={classes.images} src={car} alt="about" />
+            <img className={classes.images} src={about} alt="about" />
           </div>
         </div>
       </section>
