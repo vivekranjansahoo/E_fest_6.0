@@ -36,7 +36,7 @@ const App = () => {
   }, [location]);
   const [loading, setLoading] = useState(true);
 
-  setTimeout(() => setLoading(false), 3900);
+  setTimeout(() => setLoading(false), 7000);
   useEffect(() => {});
   return (
     <>
