@@ -3,6 +3,7 @@ import classes from "./About.module.css";
 import about from "./about.svg";
 import ab from "./apc.png";
 import car from "./car.png";
+import cc from "./back.jpeg";
 
 const About = () => {
   return (

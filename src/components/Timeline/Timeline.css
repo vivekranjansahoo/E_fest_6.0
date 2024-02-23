@@ -401,24 +401,25 @@ ul {
 
 @media screen and (max-width: 600px) {
   #timeline ul li .cont {
-    width: 120px;
+    width: 150px;
+    height: 160px;
     line-height: 120%;
   }
 
   #timeline ul li:nth-child(even) .cont {
-    left: -175px;
+    left: -180px;
+  }
+  #timeline ul li:nth-child(odd) .cont {
+    left: 37px;
   }
 
   #timeline ul li .cont p,
   #timeline ul li .cont time {
-    font-size: 76%;
+    font-size: 14px;
   }
 
   #timeline ul li .cont time {
-    width: 80px;
+    width: 90px;
     left: calc(100% / 2 - 40px);
   }
 }
-/*-------------------------------------
-         #End Timeline Rules
--------------------------------------*/

@@ -41,7 +41,8 @@ const Navbar = () => {
             duration={600}
           >
             <Link to="/">
-              <img src={Logo} alt="/" className={classes.logo} />
+              {/* <img src={Logo} alt="/" className={classes.logo} /> */}
+              <h1>Logo here</h1>
             </Link>
           </Drop>
         </div>

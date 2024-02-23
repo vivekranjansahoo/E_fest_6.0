@@ -215,32 +215,13 @@ const Footer = () => {
         <h4 className={classes.footer_creator}>
           Website designed and created by{" "}
           <a
-            href={spiderurl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classes.footer_a_link}
-          >
-            @Om Gawande
-          </a>{" "}
-          ,{" "}
-          <a
-            href={saurabh}
+            // href={sanyog}
             target="_blank"
             rel="noopener noreferrer"
             className={classes.footer_a_link}
           >
             {" "}
-            @Saurabh Barde
-          </a>{" "}
-          and{" "}
-          <a
-            href={sanyog}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classes.footer_a_link}
-          >
-            {" "}
-            @Sanyog Mahajan
+            @E-fest Web Team
           </a>{" "}
         </h4>
       </div>
