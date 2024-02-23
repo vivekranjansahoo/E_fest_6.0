@@ -16,7 +16,7 @@ import Popup from "./components/common/Popup/Popup";
 // import Swup from "swup";
 /* Google Analytics */
 import ReactGA from "react-ga";
-const TRACKING_ID = ""; // OUR_TRACKING_ID
+const TRACKING_ID = "G-C7HFX1ZX97"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
